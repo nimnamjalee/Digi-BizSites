@@ -20,7 +20,7 @@
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
         <a href="/sample-websites">Sample Websites</a>
-        <a href="/login" class="nav-button">Login</a>
+        <a href="{{ route('client.login') }}">Login</a>
         <a href="/client-register" class="nav-button">Register</a>
     </div>
     </nav>
