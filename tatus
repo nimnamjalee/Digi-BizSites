@@ -1,0 +1,14 @@
+warning: in the working copy of 'public/css/style.css', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'resources/views/home.blade.php', CRLF will be replaced by LF the next time Git touches it
+ app/Http/Controllers/ClientController.php          |  80 [31m--[m
+ app/Models/Client.php                              |  20 [31m-[m
+ app/Models/User.php                                |  19 [32m+[m[31m-[m
+ .../2026_10_14_141228_create_clients_table.php     |  32 [31m-[m
+ public/css/style.css                               | 828 [32m++++++++++++++++++[m[31m---[m
+ resources/views/client-dashboard.blade.php         | 374 [31m----------[m
+ resources/views/client-login.blade.php             | 118 [31m---[m
+ resources/views/client-register.blade.php          | 150 [31m----[m
+ resources/views/dashboard.blade.php                |  17 [31m-[m
+ resources/views/home.blade.php                     | 467 [32m++++++++++[m[31m--[m
+ routes/web.php                                     | 150 [32m+++[m[31m-[m
+ 11 files changed, 1246 insertions(+), 1009 deletions(-)

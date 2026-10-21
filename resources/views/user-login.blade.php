@@ -110,7 +110,9 @@
 
         <div class="links">
             <p>Don't have an account?</p>
-            <a href="{{ route('client.register') }}">Register here</a>
+            
+<a href="{{ route('user.register') }}">Register here</a>
+
             <p><a href="{{ url('/') }}">Back to Home</a></p>
         </div>
     </div>
